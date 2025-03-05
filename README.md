@@ -8,7 +8,7 @@ Este projeto foi criado para atender demandas de restaurantes que desejam aprese
 - Cadastro de restaurantes com informações detalhadas
 - Apresentação de cardápio com fotos e descrições
 - Localização e horário de funcionamento
-- Integração com mapas para facilitar a localização -Em desemvolvimento-
+- Integração com mapas para facilitar a localização
 
 ## Tecnologias Utilizadas
 - react
@@ -41,5 +41,5 @@ Inicie o servidor:
 npm start
 ```
 
-Acesse no navegador: http://localhost:3000run satart 
+Acesse no navegador: http://localhost:3000 
 
