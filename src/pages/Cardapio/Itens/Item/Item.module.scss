@@ -2,26 +2,42 @@
 @import "styles/breakpoints";
 
 .item {
-  align-items: center;
-  border-radius: 10px;
-  cursor: pointer;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  padding: 20px;
-  transition: .2s ease-in;
   width: 90%;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.2s ease-in;
+
   &:hover {
     background-color: $grey;
   }
+
+  @media (max-width: $desktop_sm) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
   &__imagem {
     min-width: 240px;
-    @media (max-width: $desktop_xsm) {
-      width: 100%;
-    }
+    max-width: 200px; // Define um limite para evitar imagens muito grandes
+    width: 100%;
+    
     img {
+      width: 100%;
+      height: auto;
       border-radius: 8px;
+      object-fit: cover; // Garante que a imagem fique bem ajustada
+    }
+
+    @media (max-width: $desktop_sm) {
+      max-width: 150px; // Imagem menor em telas pequenas
     }
   }
+
   &__descricao {
     display: flex;
     flex: 1;
@@ -29,18 +45,22 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 0 20px;
+
     @media (max-width: $desktop_xsm) {
-      flex-direction: row;
+      flex-direction: column;
+      align-items: center;
       margin-top: 20px;
       padding: 0;
     }
   }
+
   &__titulo {
     h2 {
       font-size: 2rem;
       font-weight: bold;
       margin-bottom: 20px;
     }
+
     p {
       color: $dark-grey;
       font-size: 1.3rem;

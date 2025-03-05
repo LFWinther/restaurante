@@ -2,7 +2,10 @@
 @import "./breakpoints";
 
 .container {
+  width: 100%; 
   padding: 50px $padding-horizontal;
+  box-sizing: border-box; 
+
   @media (max-width: $desktop_xsm) {
     padding: 50px $padding-horizontal-mobile;
   }
@@ -13,8 +16,20 @@
     padding: 50px $padding-horizontal-md;
   }
 }
+
 .titulo {
   color: $dark;
-  font-size: 3rem;
+  font-size: 3rem; 
   margin-bottom: 30px;
-} 
+  max-width: 100%; 
+  word-wrap: break-word; 
+  text-align: center; 
+  
+  @media (max-width: $desktop_sm) {
+    font-size: 2.5rem; 
+  }
+
+  @media (max-width: $desktop_xsm) {
+    font-size: 2rem; 
+  }
+}

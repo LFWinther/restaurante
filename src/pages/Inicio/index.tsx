@@ -2,7 +2,6 @@ import cardapio from 'data/cardapio.json';
 import styles from './Inicio.module.scss';
 import stylesTema from 'styles/Tema.module.scss';
 import restaurante from 'assets/restaurante.webp';
-import Cardapio from 'pages/Cardapio';
 import { useNavigate } from 'react-router-dom';
 import { Prato } from 'types/Prato';
 import Localizacao from 'components/Mapa/Localizacao';

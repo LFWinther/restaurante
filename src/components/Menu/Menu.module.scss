@@ -7,6 +7,7 @@
   align-items: center;
   padding: 20px $padding-horizontal;
   position: relative;
+  width: 100%; 
 
   @media (max-width: $desktop_xsm) {
     padding: 20px $padding-horizontal-mobile;
@@ -35,7 +36,8 @@
       top: 80px;
       right: 0;
       background: rgba(255, 255, 255, 0.95);
-      width: 200px;
+      width: 100%; 
+      max-width: 100%; 
       border-radius: 10px;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     }

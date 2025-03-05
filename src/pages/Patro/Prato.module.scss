@@ -9,33 +9,42 @@
   font-size: 1.5rem;
   font-weight: bold;
 }
+
 .container {
   align-items: center;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .titulo {
   font-size: 2rem;
 }
+
 .imagem {
-  width: 500px;
+  width: 90%; 
+  max-width: 500px; 
+  
   img {
     border-radius: 8px;
-    width: 100%;
+    width: 100%; 
+    height: auto; 
   }
 }
+
 .conteudo {
   align-items: center;
   display: flex;
   flex-direction: column;
+
   &__descricao {
     color: $darkest-grey;
     font-size: 1.5rem;
     font-weight: bold;
     width: 40%;
   }
-  &____detalhes {
+
+  &__detalhes {
     display: flex;
     justify-content: space-between;
   }

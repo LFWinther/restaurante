@@ -9,7 +9,7 @@ export default function Item(props: Prato) {
   return (
     <div className={styles.item} onClick={() => navigate(`/prato/${id}`)}>
       <div className={styles.item__imagem}>
-      <img src={photo} alt={title} className={styles.item__imagem} width={5} />
+      <img src={photo} alt={title} className={styles.item__imagem} />
       </div>
       <div className={styles.item__descricao}>
         <div className={styles.item__titulo}>
