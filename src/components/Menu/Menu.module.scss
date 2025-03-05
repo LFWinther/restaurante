@@ -1,35 +1,68 @@
 @import 'styles/variaveis';
 @import 'styles/breakpoints';
 
-.menu{
+.menu {
   display: flex;
-  padding: 0px $padding-horizontal;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px $padding-horizontal;
+  position: relative;
+
   @media (max-width: $desktop_xsm) {
     padding: 20px $padding-horizontal-mobile;
   }
-  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
-    padding: 20px $padding-horizontal-sm;
+
+  &__toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: $dark;
+    
+    @media (max-width: $desktop_sm) {
+      display: block;
+    }
   }
-  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
-    padding: 20px $padding-horizontal-md;
-  }
-    &__list {
-      align-items: center;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    
+    @media (max-width: $desktop_sm) {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      right: 0;
+      background: rgba(255, 255, 255, 0.95);
+      width: 200px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    &__aberto {
       display: flex;
     }
-    &__link {
-      list-style-type: none;
-      padding: 0 20px;
-      a {
-        color: $dark;
-        cursor: pointer;
-        font-size: 24px;
-        font-weight: 600;
-        text-decoration: none;
-        transition: .2s ease;
-        &:hover {
-          color: $dark-grey;
-        }
+  }
+
+  &__link {
+    list-style-type: none;
+    padding: 10px 20px;
+
+    a {
+      color: $dark;
+      font-size: 24px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.2s ease;
+
+      &:hover {
+        color: $dark-grey;
       }
     }
+
+    @media (max-width: $desktop_sm) {
+      padding: 15px;
+    }
+  }
 }
