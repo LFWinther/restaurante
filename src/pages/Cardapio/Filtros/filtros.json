@@ -1,0 +1,18 @@
+[
+    {
+      "label": "Entradas",
+      "id": 1
+    },
+    {
+      "label": "Principais",
+      "id": 2
+    },
+    {
+      "label": "Veganos",
+      "id": 3
+    },
+    {
+      "label": "Sobremesas",
+      "id": 4
+    }
+  ]

@@ -1,0 +1,218 @@
+[
+  {
+    "title": "Filé Wellington com Purê de Batata Trufado",
+    "description": "Filé mignon envolto em massa folhada crocante, recheado com duxelles de cogumelos e foie gras, servido com molho de vinho tinto e purê de batatas trufado.",
+    "photo": "/assets/pratos/file-wellington.webp",
+    "size": 450,
+    "price": 120.0,
+    "id": 1,
+    "category": {
+      "id": 2,
+      "label": "Principais"
+    }
+  },
+  {
+    "title": "Salmão Grelhado com Crosta de Ervas e Mousseline de Ervilhas",
+    "description": "Filé de salmão grelhado com crosta crocante de ervas finas, servido sobre uma mousseline de ervilhas e acompanhado de mini legumes glaceados.",
+    "photo": "/assets/pratos/salmao.webp",
+    "size": 450,
+    "price": 109.0,
+    "id": 2,
+    "category": {
+      "id": 2,
+      "label": "Principais"
+    }
+  },
+  {
+    "title": "Risoto de Açafrão com Vieiras Grelhadas",
+    "description": "Risoto cremoso de açafrão finalizado com parmesão envelhecido, servido com vieiras seladas na manteiga e decorado com brotos frescos.",
+    "photo": "/assets/pratos/risoto-vieiras.webp",
+    "size": 550,
+    "price": 99.0,
+    "id": 3,
+    "category": {
+      "id": 2,
+      "label": "Principais"
+    }
+  },
+  {
+    "title": "Carré de Cordeiro ao Molho de Hortelã com Batatas Rústicas",
+    "description": "Carré de cordeiro grelhado ao ponto perfeito, servido com um leve molho de hortelã, batatas rústicas douradas e aspargos grelhados.",
+    "photo": "/assets/pratos/carre.webp",
+    "size": 550,
+    "price": 109.0,
+    "id": 4,
+    "category": {
+      "id": 2,
+      "label": "Principais"
+    }
+  },
+  {
+    "title": "Ravioli de Lagosta com Creme de Champagne e Caviar",
+    "description": "Massa fresca recheada com lagosta e ervas, servida com um delicado molho de creme de champagne, finalizado com ovas de caviar e raspas de limão siciliano.",
+    "photo": "/assets/pratos/ravioli-lagosta.webp",
+    "size": 550,
+    "price": 120.0,
+    "id": 5,
+    "category": {
+      "id": 2,
+      "label": "Principais"
+    }
+  },
+  {
+    "title": "Carpaccio de Wagyu com Lascas de Parmesão e Azeite Trufado",
+    "description": "Finas lâminas de carne Wagyu temperadas com flor de sal, pimenta-do-reino, azeite trufado e lascas de parmesão envelhecido, servidas com rúcula baby e torradas crocantes.",
+    "photo": "/assets/pratos/carpaccio.webp",
+    "size": 250,
+    "price": 90.0,
+    "id": 6,
+    "category": {
+      "id": 1,
+      "label": "Entradas"
+    }
+  },
+  {
+    "title": "Tartar de Atum com Avocado e Ovas de Tobiko",
+    "description": "Atum fresco cortado na ponta da faca, temperado com molho cítrico e servido sobre uma cama de avocado cremoso, finalizado com ovas de tobiko e chips de arroz crocante.",
+    "photo": "/assets/pratos/tartar-atum.webp",
+    "size": 350,
+    "price": 79.0,
+    "id": 7,
+    "category": {
+      "id": 1,
+      "label": "Entradas"
+    }
+  },
+  {
+    "title": "EntradasVol-au-Vent de Cogumelos Selvagens e Queijo Brie",
+    "description": "Massa folhada leve e crocante recheada com um mix de cogumelos selvagens salteados e creme de queijo brie, finalizado com azeite de trufas brancas.",
+    "photo": "/assets/pratos/vol-au-Vent.webp",
+    "size": 350,
+    "price": 77.0,
+    "id": 8,
+    "category": {
+      "id": 1,
+      "label": "Entradas"
+    }
+  },
+  {
+    "title": "Vieiras Grelhadas com Purê de Couve-Flor e Redução de Laranja",
+    "description": "Vieiras seladas na manteiga servidas sobre um delicado purê de couve-flor, acompanhadas de redução de laranja e farofa crocante de amêndoas.",
+    "photo": "/assets/pratos/vieiras-grelhadas.webp",
+    "size": 400,
+    "price": 99.0,
+    "id": 9,
+    "category": {
+      "id": 1,
+      "label": "Entradas"
+    }
+  },
+  {
+    "title": "Burrata com Tomates Confitados e Pesto de Manjericão",
+    "description": "Burrata cremosa servida com tomates cereja confitados lentamente, pesto de manjericão fresco e finalizada com um toque de flor de sal e azeite extravirgem.",
+    "photo": "/assets/pratos/burrata.webp",
+    "size": 440,
+    "price": 89.0,
+    "id": 10,
+    "category": {
+      "id": 1,
+      "label": "Entradas"
+    }
+  },
+  {
+    "title": "Ravioli de Abóbora com Sálvia e Nozes",
+    "description": "Massa fresca recheada com purê de abóbora assada, levemente adocicada, servida com molho de manteiga vegana, folhas de sálvia crocantes e nozes tostadas.",
+    "photo": "/assets/pratos/ravioli.webp",
+    "size": 440,
+    "price": 89.0,
+    "id": 11,
+    "category": {
+      "id": 3,
+      "label": "Veganos"
+    }
+  },
+  {
+    "title": "Risoto de Trufas Negras com Aspargos",
+    "description": "Arroz arbório cremoso preparado com caldo de legumes artesanal, finalizado com azeite trufado, aspargos grelhados e lascas de amêndoas para crocância.",
+    "photo": "/assets/pratos/risoto.webp",
+    "size": 440,
+    "price": 79.0,
+    "id": 12,
+    "category": {
+      "id": 3,
+      "label": "Veganos"
+    }
+  },
+  {
+    "title": "Steak de Cogumelo Porcini ao Molho de Vinho Tinto",
+    "description": "Cogumelos Porcini e Portobello grelhados, servidos com redução de vinho tinto, purê de batata trufado e mini legumes glaceados.",
+    "photo": "/assets/pratos/steak.webp",
+    "size": 450,
+    "price": 109.0,
+    "id": 13,
+    "category": {
+      "id": 3,
+      "label": "Veganos"
+    }
+  },
+  {
+    "title": "Tartar de Beterraba com Creme de Castanhas e Caviar de Manjericão",
+    "description": "Beterraba assada e temperada com ervas finas, servida com creme suave de castanhas e esferas de manjericão feitas com esferificação molecular para um toque moderno.",
+    "photo": "/assets/pratos/tartar-beterraba.webp",
+    "size": 400,
+    "price": 99.0,
+    "id": 14,
+    "category": {
+      "id": 3,
+      "label": "Veganos"
+    }
+  },
+  {
+    "title": "Suflê de Chocolate Belga com Creme Inglês de Baunilha",
+    "description": "Suflê leve e aerado feito com chocolate belga 70%, servido com um delicado creme inglês de baunilha de Madagascar e finalizado com açúcar de confeiteiro.",
+    "photo": "/assets/pratos/sufle.webp",
+    "size": 250,
+    "price": 69.0,
+    "id": 15,
+    "category": {
+      "id": 4,
+      "label": "Sobremesas"
+    }
+  },
+  {
+    "title": "Tarte Tatin de Maçã com Sorvete de Caramelo Salgado",
+    "description": "Maçãs caramelizadas lentamente sobre uma base crocante de massa folhada invertida, servidas mornas com uma bola de sorvete artesanal de caramelo salgado.",
+    "photo": "/assets/pratos/tarte.webp",
+    "size": 300,
+    "price": 70.0,
+    "id": 16,
+    "category": {
+      "id": 4,
+      "label": "Sobremesas"
+    }
+  },
+  {
+    "title": "Ópera de Café e Chocolate com Ganache de Praliné",
+    "description": "Camadas finas de biscuit de amêndoas, creme de café e ganache de chocolate meio amargo, finalizadas com um brilho dourado e crocante de praliné.",
+    "photo": "/assets/pratos/opera.webp",
+    "size": 300,
+    "price": 75.0,
+    "id": 17,
+    "category": {
+      "id": 4,
+      "label": "Sobremesas"
+    }
+  },
+  {
+    "title": "Entremet de Framboesa e Pistache",
+    "description": "Uma elegante combinação de mousse de framboesa, dacquoise de pistache e geleia de frutas vermelhas, envolta por um espelho brilhante de framboesa e decorada com pétalas de ouro comestível.",
+    "photo": "/assets/pratos/Entremet.webp",
+    "size": 250,
+    "price": 75.0,
+    "id": 18,
+    "category": {
+      "id": 4,
+      "label": "Sobremesas"
+    }
+  }
+]
